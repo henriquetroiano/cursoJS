@@ -1,0 +1,28 @@
+body {
+  background: black;
+}
+
+.menu__ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__ul--li {
+  color: beige;
+ border: 2px solid gray;
+  background-color: violet;
+  padding: 5px;
+
+}
+.menu__ul--li a {
+  transition: ease-in 1s;
+
+}
+.menu__ul--li:hover a{
+  color: white;
+  transition: ease-out 1s;
+
+  
+}
+
