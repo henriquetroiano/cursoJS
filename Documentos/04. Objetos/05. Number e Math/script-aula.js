@@ -18,6 +18,29 @@ valor = valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) // t
 
 console.log(valor)
 
+console.log(Math.PI)
+
+// abs = transforma o numero em absoluto, sempre positivo
+
+Math.ceil // arredonda pra cima
+Math.floor // arredonda pra baixo
+Math.round // arredonda normal (-5 baixo, + 5 cima)
+Math.max // retorna o maior numero
+Math.min // retorna o menor numero
+
+Math.random // retorna um numero aleatorio entre 0 e 1
+
+const aleatorio = Math.floor(Math.random() * 10); 
+console.log(aleatorio) // pode retornar qualquer aleatorio, multiplicando pelas casas e arredondando com math floor.
+
+
+
+const numAleatorio = Math.floor(Math.random() * (100 - 90 + 1)) + 90;
+console.log(numAleatorio)
+
+
+
+
 
 
 
